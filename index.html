@@ -4,32 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Full Stack Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">MBOUNA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Oluwasheyi Makanjuola</h1>
-      <h2>Full Stack Developer</h2>
-      <a href="#contact" class="btn">Hire Me</a>
+  <section id="hero" class="jumbotron text-center">
+    <div class="container">
+      <img class="rounded" src="https://avatars.githubusercontent.com/u/97896663?v=4" alt="MyPhoto">
+      <h1 class="display-4">Mohammed BOUNAa</h1>
+      <h2 class="lead">Full Stack Developer</h2>
+      <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="py-5">
     <div class="container">
-      <h2>About Me</h2>
+      <h2 class="mb-4">About Me</h2>
       <p>
-        Hi, I'm Mohammed BOUNA, a passionate Full Stack Developer with experience in building web applications. I have a strong foundation in front-end and back-end technologies, including HTML, JavaScript, Node.js, and databases like sqlServer and Oracle
+        Hi, I'm Mohammed BOUNA, a passionate Full Stack Developer with experience in building web applications. I have a strong foundation in front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, Php, C, and databases like MySQL and MongoDB.
       </p>
       <p>
         I love solving problems and creating efficient, scalable solutions. I'm a quick learner and enjoy keeping up with the latest trends in web development. My goal is to deliver high-quality software that meets the client's requirements and provides a great user experience.
@@ -37,35 +50,47 @@
     </div>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="bg-light py-5">
     <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Portfolio</h3>
-        <p>A portfolio webpage serves as an online representation of an individual or a company's work, skills, and achievements. It is a curated collection of projects, case studies, and information designed to showcase the expertise and capabilities of the portfolio owner. The purpose of a portfolio webpage is to impress and engage potential clients, employers, or collaborators, and to provide them with a comprehensive overview of the portfolio owner's skills and accomplishments.</p>
-        <a href="#" class="btn">View Project</a>
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Portfolio Website</h3>
+              <p class="card-text">Just Like this one.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Hotel ERP</h3>
+              <p class="card-text">Coming Soon.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project sections as needed -->
       </div>
-      <div class="project">
-        <h3>Project 2</h3>
-        <p>A brief description of the project, including the technologies used and your role in the development process.</p>
-        <a href="#" class="btn">View Project</a>
-      </div>
-      <!-- Add more project sections as needed -->
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="py-5">
     <div class="container">
-      <h2>Contact Me</h2>
+      <h2 class="mb-4">Contact Me</h2>
       <p>If you have any questions or would like to discuss a potential project, feel free to get in touch with me. I'm available for freelance work and open to new opportunities.</p>
-      <a href="mohammed.bouna07@gmail.com" class="btn">Email Me</a>
+      <a href="mailto:mohammed.bouna07@gmail.com" class="btn btn-primary">Email Me</a>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2024 MBOUNA All rights reserved.</p>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 mbouna All rights reserved.</p>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
