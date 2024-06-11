@@ -13,10 +13,21 @@ The portfolio is structured as follows:
 - **Contact Section**: Contains contact text and a button to send an email.
 - **Footer**: Contains a copyright notice.
 
+## Configuration
+
+The project uses the Slate theme for GitHub Pages. The configuration is stored in a `config.yml` file with the following settings:
+
+```yml
+title: Slate theme
+description: Slate is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-slate
+
 ## How to Use
 
-Open the `index.html` file in your browser to view the portfolio.
-
-## License
-
-This project is licensed under the MIT license. See the `LICENSE` file for more details.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Open the `index.html` file in your browser to view the portfolio.
+4. To edit the portfolio, open the project files in your preferred text editor.
+```
