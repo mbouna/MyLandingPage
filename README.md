@@ -4,7 +4,7 @@ This project is a Full Stack Developer portfolio. It's built with HTML, CSS, and
 
 ## Project Structure
 
-The portfolio is structured as follows:
+The portfolio is structured as follows: 
 
 - **Header**: Contains a navigation bar with links to the different sections of the portfolio.
 - **Hero Section**: Contains a profile picture, name, profession, and a call-to-action button.
